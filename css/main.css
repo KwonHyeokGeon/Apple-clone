@@ -1,0 +1,316 @@
+/* 
+section__top 
+*/
+/* 공통속성 */
+.unit__link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+}
+.title {
+    padding-top: 95px;
+    font-size: 56px;
+    font-weight: bold;
+    color: #f5f5f7;
+    letter-spacing: -3px;
+}
+
+.sub {
+    margin-top: 22px;
+    font-size: 26px;
+    color: #f5f5f7;
+}
+
+.extra {
+    position: relative;
+    margin-top: 26px;
+    z-index: 9999;
+}
+
+.extra i {
+    position: relative;
+    top: -2px;
+    padding-left: 6.5px;
+    color: #2997ff;
+    font-size: 13px;
+}
+
+.extra__plus {
+    display: inline-block;
+    font-size: 19px;
+    color: #2997ff;
+    z-index: 9999;
+}
+
+.extra__plus:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+.extra__plus:last-child {
+    margin-left: 35px;
+}
+
+/* iphone14pro */
+main .section__top .iphone14pro {
+    position: relative;
+    width: 100%;
+    height: 738px;
+    background: url(../images/iPhone14Pro.jpg) no-repeat center center;
+    text-align: center;
+}
+/* iphone14 */
+main .section__top .iphone14 {
+    position: relative;
+    width: 100%;
+    height: 692px;
+    margin-top: 10px;
+    background: url(../images/iphone14.jpg) no-repeat center center;
+    text-align: center;
+}
+
+main .section__top .iphone14 h2 {
+    padding-top: 51px;
+    color: #1d1d1f;
+}
+
+main .section__top .iphone14 h3 {
+    color: #1d1d1f;
+}
+
+/* school */
+main .section__top .school {
+    position: relative;
+    width: 100%;
+    height: 692px;
+    margin-top: 10px;
+    background: url(../images/school.jpg) no-repeat center center;
+    text-align: center;
+}
+
+main .section__top .school h2 {
+    padding-top: 51px;
+}
+
+main .section__top .school .title__school {
+    padding-top: 95px;
+    font-size: 56px;
+    font-weight: bold;
+    color: #1d1d1f;
+    transform: skewX(-8deg);
+}
+
+main .section__top .school .title__school i {
+    color: #d01eae;
+}
+
+main .section__top .school .sub__school {
+    margin-top: 19px;
+    font-size: 26px;
+    color: #1d1d1f;
+}
+
+main .section__top .school .extra__school {
+    margin-top: 26px;
+}
+/* section mid */
+/* 공통속성 */
+main .section__mid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin: 12px;
+}
+main .section__mid .mid__wrap {
+    position: relative;
+    height: 580px;
+    text-align: center;
+}
+
+main .section__mid .mid__wrap > a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+}
+
+main .section__mid .mid__wrap .detail__black {
+    color: #1d1d1f;
+}
+
+main .section__mid .mid__wrap .detail h4,
+main .section__mid .mid__wrap .detail h5 {
+    color: #f5f5f7;
+}
+
+main .section__mid .mid__wrap .detail h4 {
+    margin-top: 50px;
+    font-size: 36px;
+    font-weight: bold;
+}
+main .section__mid .mid__wrap .detail__black h4 {
+    margin-top: 50px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+main .section__mid .mid__wrap .detail h5 {
+    margin-top: 12px;
+    font-size: 19px;
+}
+
+main .section__mid .mid__wrap .detail__black h5 {
+    margin-top: 12px;
+    font-size: 19px;
+}
+
+main .section__mid .mid__wrap .detail p {
+    margin-top: 12px;
+    font-size: 15px;
+    color: #6e6e73;
+}
+
+main .section__mid .mid__wrap .detail .extra__small {
+    position: relative;
+    margin-top: 14px;
+    z-index: 9999;
+}
+
+main .section__mid .mid__wrap .detail__black .extra__small {
+    position: relative;
+    margin-top: 14px;
+    z-index: 9999;
+}
+
+main .section__mid .mid__wrap .detail .extra__small a {
+    font-size: 15px;
+    color: #2997ff;
+}
+
+main .section__mid .mid__wrap .detail .extra__small a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+
+main .section__mid .mid__wrap .detail__black .extra__small a {
+    font-size: 15px;
+    color: #2997ff;
+}
+
+main .section__mid .mid__wrap .detail__black .extra__small a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+
+main .section__mid .mid__wrap .detail .extra__small a:nth-child(2) {
+    margin-left: 28px;
+}
+main .section__mid .mid__wrap .detail__black .extra__small a:nth-child(2) {
+    margin-left: 28px;
+}
+
+main .section__mid .mid__wrap .detail .extra__small a i {
+    position: relative;
+    top: -1.5px;
+    padding-left: 5px;
+    font-size: 10px;
+}
+
+main .section__mid .mid__wrap .detail__black .extra__small a i {
+    position: relative;
+    top: -1.5px;
+    padding-left: 5px;
+    font-size: 10px;
+}
+
+main .section__mid .mid__wrap .wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -2;
+}
+/* watch__black */
+main .section__mid .watch__black .detail h4 {
+    margin-top: 59px;
+    background-size: 137px 52px;
+    height: 52px;
+    background: url(../images/watch_series8.png) no-repeat center;
+}
+main .section__mid .watch__black .detail h4 .hidden {
+    display: none;
+    opacity: 0;
+}
+
+main .section__mid .watch__black .detail h5 {
+    color: #f5f5f7;
+}
+
+main .section__mid .watch__black .wrap figure {
+    width: 100%;
+    height: 100%;
+    background: url(../images/watch8.jpg) no-repeat center;
+}
+/* macbookpro */
+main .section__mid .macbookpro .wrap figure {
+    width: 100%;
+    height: 100%;
+    background: url(../images/macbookpro.jpg) no-repeat center;
+}
+/* watch__8 */
+main .section__mid .watch__8 .wrap figure {
+    width: 100%;
+    height: 100%;
+    background: url(../images/watchblack.jpg) no-repeat center;
+}
+/* present */
+main .section__mid .present .wrap figure {
+    width: 100%;
+    height: 100%;
+    background: url(../images/present.jpg) no-repeat center;
+}
+/* ipad */
+main .section__mid .ipad .wrap figure {
+    width: 100%;
+    height: 100%;
+    background: url(../images/ipad.jpg) no-repeat center;
+}
+/* macmini */
+main .section__mid .macmini .wrap figure {
+    width: 100%;
+    height: 100%;
+    background: url(../images/macmini.jpg) no-repeat center;
+}
+
+main .box1 .swiper-slide > .swiper-btn {
+    position: absolute;
+    left: 50px;
+    bottom: 35px;
+    display: inline-flex;
+    transition: all 1s;
+}
+
+main .box1 .swiper-slide > .swiper-btn > div {
+    background-color: #fff;
+    padding: 12px 22px;
+    display: inline-block;
+    margin-top: 10px;
+    border-radius: 40px;
+    text-align: center;
+    font-size: 13px;
+}
+
+main .box1 .swiper-slide > .swiper-btn > p {
+    color: #fff;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+main .box1 .swiper-slide > .swiper-btn > p span:first-child {
+    font-size: bold;
+}
